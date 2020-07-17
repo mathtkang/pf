@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚡️Web Front-End Engineer⚡️</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cssanimation.min.css">
+  <script src="js/scrolly.min.js"></script>
+  <style>
+    /* @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css); */
+  </style>
+</head>
+<body>
+  <script type="text/javascript">
+    window.onload = function(){scrolly();}
+  </script>
+    
+  <!--  한 줄에 여러 항목 -->
+  <section>
+    <div class="wrapper">
+      <header class="section-title">
+        <!-- <h3>Mobile Web/App Developer</h3> -->
+        <h3>Web Front-End Engineer</h3>
+      </header>  
+
+      <div class="profile" data-scrolly-down="blurInBottom">
+
+        <img src = "images/profile_.jpg">
+        <div class="profile_txt">
+          <p>NAME : Seokyoung Kang</p>
+          <p> AGE  : 24</p>
+          <p>SKILL : <strong>HTML/CSS JavaScript JAVA</strong></p>
+          <!-- <p>PHONE : 010-7150-2197</p>
+          <p>EMAIL : ksge1124@gmail.com</p> -->
+          <p class="small"><a href="https://kkangsg.tistory.com">Blog  : https://kkangsg.tistory.com</a></p>
+          <p class="small"><a href="https://github.com/mathtkang">GitHub : https://github.com/mathtkang</a></p>
+        </div>
+
+      </div>
+      <div class="program-list">
+    
+        <div class="program">
+          <a href="https://jinjuna.github.io/sk2/">
+            <div class="txt">
+            <h4>HTML/CSS Javascript jQuery</h4>
+            <p>SK2 Renewal</p>
+            </div>
+          </a>    
+        </div> 
+
+        <div class="program" >
+          <a href="http://dindoo.dothome.co.kr/">
+              <div class="txt">
+              <h4>HTML/CSS Javascript ReactApp</h4>
+              <p>Project<br>Mentoring-lab-Homepage</p>
+              </div>
+          </a>
+        </div>
+
+        <div class="program">
+          <a href="https://mathtkang.github.io/todolist/todolist.html">
+              <div class="txt">
+              <h4>HTML/CSS Javascript Node.js MySQL</h4>
+              <p>My ToDoList</p>
+              </div>
+          </a>    
+        </div>
+
+        <div class="program">
+          <a href="https://mathtkang.github.io/compose-coffee/">
+            <div class="txt">
+            <h4>HTML/CSS</h4>
+            <p>Compose Coffee Renewal</p>
+            </div>
+          </a>    
+         </div>
+
+        <div class="program">
+          <a href="https://mathtkang.github.io/hollys/3.index.html">
+            <div class="txt">
+            <h4>HTML/CSS</h4>
+            <p>Hollys Coffee Renewal</p>
+            </div>
+           </a>    
+        </div>
+
+        <div class="program">
+          <a href="https://mathtkang.github.io/Sorbebe/2.index.html">
+            <div class="txt">
+            <h4>HTML/CSS</h4>
+            <p>Sorbebe Renewal</p>
+            </div>
+          </a>    
+        </div>
+
+        <div class="program">
+          <a href="https://mathtkang.github.io/calculate/calculate.html">
+            <div class="txt">
+            <h4>HTML/CSS Javascript</h4>
+            <p>iPhone Calculator</p>
+            </div>
+          </a>    
+        </div>
+
+        <div class="program" >
+          <a href="https://mathtkang.github.io/res_coffee-master/">
+            <div class="txt">
+            <h4>HTML/CSS Responsive Web</h4>
+            <p>Cafe Homepage Renewal</p>
+            </div>
+          </a>    
+        </div>
+
+        <div class="program" >
+          <a href="https://mathtkang.github.io/starbucks/">
+            <div class="txt">
+            <h4>HTML/CSS</h4>
+            <p>Responsive Starbucks Renewal</p>
+            </div>
+          </a>    
+        </div>
+
+      </div>
+    </div>    
+  </section>
+    
+  <!-- 푸터 -->
+  <section class="footer">
+    <div class="wrapper">
+      <div class="footer-info">
+        <div class="contact">
+          <p> 인천시 남동구 구월로 192, 구월힐스테이트 1단지</p>
+          <p> 전화 : 010-7150-2197</p>
+          <p> 이메일 : sy7434@naver.com</p>
+        </div>
+        <div class="sns">
+          <a href="https://www.facebook.com/profile.php?id=100015291852158"><img src="images/fb.png"></a>
+          <a href="https://www.instagram.com/kkang_sgaeng"><img src="images/instagram_logo_icon.png"></a>
+          <a href="#"><img src="images/ytube.png"></a>
+          <!-- 링크드인 -->
+        </div>
+      </div>
+    </div>    
+  </section>
+
+
+<script src="js/jquery-3.4.1.min.js"></script> 
+<script src="js/slick.js"></script>
+<script> 
+$(".slider").slick({
+	autoplaySpeed:2500,
+	autoplay:true,
+	dots: false,
+	infinite: true,
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	arrows:false,
+	centerMode: true,
+	customPaging : function(s,i){
+		return '<a href="#"></a>';
+	},
+  }); 
+  </script>
+    
+</body>
+</html>

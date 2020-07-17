@@ -1,0 +1,248 @@
+
+/* @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css); */
+* {
+  margin:0;
+  padding:0;
+}
+
+body{
+  /* border-top:10px solid #214368; */
+  font-family: 'Oswald', sans-serif;
+  margin : 0 auto; 
+}
+header{
+  /* height: 70px; */
+}
+h3 {
+  display: block;
+  margin: 0 auto;
+  width:700px;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bolder;
+  color: #214368;
+  letter-spacing : 2px;
+}
+
+
+/* 내비게이션 */
+a:link, a:hover, a:visited {
+  color:#000;
+  text-decoration:none;  
+  text-align: center;
+}
+
+.profile{
+  width:70%;
+  margin:0 auto;
+  margin-top:50px;
+}
+
+.profile:after{
+  display: block;
+  clear:both;
+  content:'';
+}
+
+.profile img{
+  width:30%;
+  height: auto;
+  float: left;
+  border-radius: 50%;
+  display: none;
+}
+
+.profile .profile_txt{
+  float:left;
+  padding:20px;
+  font-size:1.5em;
+  margin-left:50px;
+  margin-top:1.5rem;
+}
+
+.profile p{
+  margin-top:0.5rem;
+  font-weight: bolder;
+}
+
+.profile .small{
+  font-size: 80%;
+  font-weight : normal;
+}
+
+/* profile */
+.program-list{
+  padding:10px 50px;
+  font-size:1.3em;
+  margin-top:50px;
+  margin-bottom:20px;
+}
+  
+.program{
+  width:230px;
+  height:350px;
+  /* padding:30px; */
+  /* box-sizing:border-box; */
+  margin : 5px;
+  border:1px solid gray; 
+  position: relative; 
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* border-radius: 3%; */
+  background-position: center top;
+}
+
+.program:nth-child(1){
+  background-image: url(../images/SK2.png);
+}
+
+.program:nth-child(2){
+  background-image: url(../images/mentoringlab.png);
+  
+}
+
+.program:nth-child(3){
+  background-image: url(../images/todolist.png);
+  
+}
+
+.program:nth-child(4){
+  background-image: url(../images/composecoffee.png);
+}
+
+.program:nth-child(5){
+  background-image: url(../images/hollyscoffee.png);
+}
+
+.program:nth-child(6){
+  background-image: url(../images/sorbebe.png);
+}
+
+.program:nth-child(7){
+  background-image: url(../images/iphone_cal.png);
+}
+
+.program:nth-child(8){
+  background-image: url(../images/coffee.png);
+}
+
+.program:nth-child(9){
+  background-image: url(../images/starbucks.jpg);
+}
+
+.program .txt{
+  width:80%;
+  height:50%;
+  background-color:rgba(255, 255, 255, 0.5);
+  color:black;
+  border:1px black solid;
+  position: absolute;
+  top : 10%;
+  left : 10%;
+  /* transition:all 1s; */
+  text-align:center;
+  padding-top:30%;
+}
+
+.program .txt:hover{
+  color : white;
+  background-color: rgb(80, 80, 80, 0.5);
+  border:1px white solid;
+}
+
+.program .txt h4{
+  font-size: 24px;
+}
+
+.program .txt p{
+  font-size: 18px;
+}
+
+/* 푸터 */
+.footer {
+  padding-top:30px;
+  padding-bottom:50px;
+  padding-left: 100px;
+  background-color:#214368 ;
+}
+
+.footer-info {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.contact {
+  color:#fff;
+}
+
+.sns {
+  margin-top:50px;
+}
+
+.sns img{
+  width:40px;
+  height:40px;
+}
+
+.sns img:nth-child(2){
+  width:50px;
+  height:50px;
+}
+
+.sns a {
+  margin-right:30px;
+  width:40px;
+  height:40px;
+}
+
+.sns a:last-child {
+  margin-right:0;
+}
+
+@media screen and (min-width:990px) {
+  .profile img{
+    display: block;
+  }
+
+}
+
+/* Tablet */
+@media screen and (min-width:768px) {
+
+  .wrapper {
+    margin:0 auto;
+    padding-top:60px;
+    padding-bottom:40px;
+    background:transparent;
+    max-width:1300px;
+  }
+
+  h3{
+    margin-top:30px;
+  }
+
+  .program{
+    width:400px;
+    flex-basis: 30%;
+  }
+
+  .program-list {
+    /* width:30px; */
+    display : flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-info {
+      max-width:1300px;
+      display:flex;
+  }
+
+  .contact {
+    flex:2;
+  }
+
+  .sns {
+    flex:1;
+  }
+
+}
